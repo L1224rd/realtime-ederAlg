@@ -1,0 +1,1 @@
+"use strict";(function(){var r=new Date;var e=500;var a=100;var f=0;var i=0;var n=function r(){var n=[];var a=[];var t=0;var v=function r(){t++;var a=Math.floor(Math.random()*e+1);if(n.indexOf(a)<0)n.push(a)};while(n.length<e){v()}i+=t;if(t>f)f=t};for(var t=0;t<a;t++){n()}return{tc:i,mc:f,t:new Date-r,nl:a,ns:e}})();
